@@ -1,0 +1,4 @@
+mark john	item 99	50	1
+mark john	item 0	9999	2
+john smith	item 2	90	3
+john smith	item 1	80	2
