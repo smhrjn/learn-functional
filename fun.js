@@ -1,10 +1,22 @@
 
+/*
+let dog = {
+	sound: 'woof',
+	talk: function() {
+		console.log(this.sound);
+	}
+}
 
+let otherTalk = dog.talk;
 
+dog.talk();
+otherTalk();
 
-
-
-
+let otherTalk2 = dog.talk.bind(dog);
+otherTalk2();
+console.log("with bind below");
+otherTalk.bind(dog)();
+*/
 
 /*
 import loadImage from './load-image';
