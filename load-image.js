@@ -8,14 +8,14 @@ function loadImage(url) {
 
 		image.onload = () => resolve(image);
 
-		image.onerror = () => 
+		image.onerror = () =>
 			reject(
-				new Error("Cannot load Image: " 
+				new Error("Cannot load Image: "
 				+ url));
 
 		image.src = url;
 
-	})
+	});
 
 }
 
